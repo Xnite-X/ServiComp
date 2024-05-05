@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_hardisk_check.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\hardisk_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_ram_check.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\ram_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_slow_laptop.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\slow_laptop.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_history_icon.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\history_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\layout-v28_activity_main.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\layout-v28\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_kotak_oren.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\kotak_oren.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-merged_res-4:/layout-v28_activity_main.xml.flat",
+        "source": "com.example.servicomp.app-main-6:/layout-v28/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_laptop.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\laptop.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_smartphone.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\smartphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_kotak_kuning.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\kotak_kuning.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_touchscreen_check.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\touchscreen_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_kotak_merah.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\kotak_merah.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_transaction.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\menu\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_order_activity.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\order_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_keyboard_check.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\keyboard_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_komputer.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\komputer.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_chat_icon.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\chat_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_kotak_wrap_serice_icon.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\kotak_wrap_serice_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-merged_res-4:\\drawable_series_cellphone.xml.flat",
+        "source": "C:\\Users\\exoni\\.gradle\\daemon\\8.2\\com.example.servicomp.app-main-6:\\drawable\\series_cellphone.xml"
+    }
+]
