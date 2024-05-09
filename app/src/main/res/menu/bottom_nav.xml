@@ -3,26 +3,26 @@
     <item
         android:id="@+id/home"
         android:title="Home"
-        android:icon="@drawable/baseline_home_24" />
+        android:icon="@drawable/ic_home" />
 
     <item
         android:id="@+id/activity"
         android:title="Activity"
-        android:icon="@drawable/transaction" />
+        android:icon="@drawable/ic_activeorder" />
 
     <item
         android:id="@+id/chat"
         android:title="Activity"
-        android:icon="@drawable/chat_icon" />
+        android:icon="@drawable/ic_chat" />
 
     <item
         android:id="@+id/history"
         android:title="History"
-        android:icon="@drawable/history_icon" />
+        android:icon="@drawable/ic_ordercompleted" />
 
     <item
         android:id="@+id/profile"
         android:title="Profile"
-        android:icon="@drawable/baseline_person_24" /> <!-- Ikon orang/person -->
+        android:icon="@drawable/ic_person" /> <!-- Ikon orang/person -->
 
 </menu>

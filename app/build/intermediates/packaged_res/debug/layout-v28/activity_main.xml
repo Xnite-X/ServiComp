@@ -10,289 +10,363 @@
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="54dp">
+        android:layout_marginStart="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <!-- First ConstraintLayout -->
-
-            <!-- Second ConstraintLayout with an ImageView -->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="167dp">
+                android:layout_height="700dp">
 
                 <TextView
-                    android:id="@+id/wlcm_mssg"
-                    android:layout_width="0dp"
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
                     android:text="Hi, Harry!"
                     android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toTopOf="@+id/were_here"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.71" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="88dp"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="20dp"
                     android:text="Need a repair?"
                     android:textColor="#ED2F2F"
-                    android:textSize="15sp"
-                    android:textStyle="italic"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/wlcm_mssg"
-                    app:layout_constraintVertical_bias="0.49" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
                 <TextView
-                    android:id="@+id/were_here"
+                    android:id="@+id/textView16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
-                    android:layout_marginBottom="28dp"
-                    android:text="We're here to help you"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
-                    android:textStyle="bold"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.016"
-                    app:layout_constraintStart_toEndOf="@+id/textView2" />
-
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="80dp">
-
-                <ImageView
-                    android:id="@+id/imageView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:background="@drawable/kotak_wrap_serice_icon"
-                    android:outlineAmbientShadowColor="@color/black"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:text="We're here to help!"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView15"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="101dp"
+                    android:background="@drawable/bg_oren_oval"
+                    android:contentDescription="@+string/Notification"
+                    android:elevation="10dp"
+                    android:src="@drawable/ic_notification"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.918"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0" />
 
-                <ImageView
-                    android:id="@+id/smartphone_service"
-                    android:layout_width="75dp"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="32dp"
-                    android:background="@drawable/kotak_oren"
-                    android:contentDescription="Smartphone"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/smartphone" />
-
-                <ImageView
-                    android:id="@+id/laptop_service"
-                    android:layout_width="75dp"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="56dp"
-                    android:background="@drawable/kotak_merah"
-                    android:contentDescription="@string/laptop"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/smartphone_service"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/laptop" />
-
-                <ImageView
-                    android:id="@+id/komputer_service"
-                    android:layout_width="75dp"
-                    android:layout_height="50dp"
-                    android:layout_marginStart="52dp"
-                    android:background="@drawable/kotak_kuning"
-                    android:contentDescription="@string/komputer"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/laptop_service"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/komputer" />
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="82dp"
-                    android:layout_height="22dp"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="8dp"
-                    android:text="Smartphone"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="@+id/smartphone_service"
-                    app:layout_constraintHorizontal_bias="0.82"
-                    app:layout_constraintStart_toStartOf="@+id/smartphone_service"
-                    app:layout_constraintTop_toBottomOf="@+id/smartphone_service" />
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="70dp"
-                    android:layout_height="21dp"
-                    android:layout_marginTop="8dp"
-                    android:text="Laptop"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="@+id/laptop_service"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="@+id/laptop_service"
-                    app:layout_constraintTop_toBottomOf="@+id/laptop_service"
-                    tools:ignore="MissingConstraints" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="Computer"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="@+id/komputer_service"
-                    app:layout_constraintStart_toStartOf="@+id/komputer_service"
-                    app:layout_constraintTop_toBottomOf="@+id/komputer_service"
-                    tools:ignore="MissingConstraints" />
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/bg_putih_kotak"
+                    android:elevation="7dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15">
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_oren_kotak"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/ic_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_smartphone" />
+
+                        <TextView
+                            android:id="@+id/txt_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/smartphone"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_merah_kotak"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/ic_laptop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_laptop" />
+
+                        <TextView
+                            android:id="@+id/txt_laptop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/laptop"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_kuning_kotak"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/ic_computer" />
+
+                        <TextView
+                            android:id="@+id/txt_computer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Computer"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/bg_putih_kotak"
+                    android:elevation="10dp"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tips &amp; Trick"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_oren_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/check_series"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_cellseries" />
+
+                            <TextView
+                                android:id="@+id/txt_check_series"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="Check Series"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_merah_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/check_slow_laptop"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_slowlaptop" />
+
+                            <TextView
+                                android:id="@+id/txt_slow_laptop"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="Slow Laptop"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_kuning_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ram_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_ramcheck" />
+
+                            <TextView
+                                android:id="@+id/txt_ram_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="ram_check"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_oren_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/touchscreen_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_smartphone" />
+
+                            <TextView
+                                android:id="@+id/txt_touchscreen_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="Touchscreen Check"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_merah_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/keyboard_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_keyboard" />
+
+                            <TextView
+                                android:id="@+id/txt_keyboard_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="Check Series"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_kuning_kotak"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/hardisk_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="10dp"
+                                app:srcCompat="@drawable/ic_hardisk" />
+
+                            <TextView
+                                android:id="@+id/txt_hardisk_check"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:text="Hardisk Check"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#000000"
-                android:elevation="5dp"
-                android:outlineAmbientShadowColor="@color/black" />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="401dp"
-                    android:layout_height="381dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/kotak_wrap_serice_icon"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="-4dp" />
-
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tips_trick"
-                    android:textSize="24sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.498"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/imageView2"
-                    app:layout_constraintVertical_bias="0.034"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="110dp"
-                    android:layout_height="125dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="20dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    app:srcCompat="@drawable/series_cellphone" />
-
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="96dp"
-                    android:layout_height="129dp"
-                    android:layout_marginTop="64dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintEnd_toEndOf="@+id/textView5"
-                    app:layout_constraintStart_toStartOf="@+id/textView5"
-                    app:layout_constraintTop_toTopOf="@+id/imageView2"
-                    app:srcCompat="@drawable/slow_laptop"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageButton
-                    android:id="@+id/imageButton3"
-                    android:layout_width="101dp"
-                    android:layout_height="128dp"
-                    android:layout_marginTop="80dp"
-                    android:layout_marginEnd="8dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton2"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ram_check"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="104dp"
-                    android:layout_height="112dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginBottom="44dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:srcCompat="@drawable/touchscreen_check" />
-
-                <ImageButton
-                    android:id="@+id/imageButton6"
-                    android:layout_width="110dp"
-                    android:layout_height="108dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="44dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:srcCompat="@drawable/hardisk_check" />
-
-                <ImageButton
-                    android:id="@+id/imageButton5"
-                    android:layout_width="107dp"
-                    android:layout_height="107dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="48dp"
-                    android:background="?android:attr/panelBackground"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageButton6"
-                    app:srcCompat="@drawable/keyboard_check" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-
         </LinearLayout>
-
     </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

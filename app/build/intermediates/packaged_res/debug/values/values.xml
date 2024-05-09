@@ -3,8 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ServiComp</string>
+    <string name="computer"/>
     <string name="komputer"/>
     <string name="laptop">Laptop</string>
+    <string name="smartphone">Smartphone</string>
     <string name="tips_trick"><![CDATA[Tips & Trick]]></string>
     <style name="Base.Theme.ServiComp" parent="Theme.Material3.DayNight.NoActionBar">
         

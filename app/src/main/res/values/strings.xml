@@ -3,4 +3,6 @@
     <string name="laptop">Laptop</string>
     <string name="komputer" />
     <string name="tips_trick"><![CDATA[Tips & Trick]]></string>
+    <string name="smartphone">Smartphone</string>
+    <string name="computer" />
 </resources>
