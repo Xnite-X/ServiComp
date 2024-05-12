@@ -116,9 +116,7 @@ attr actionProviderClass
 attr actionTextColorAlpha
 attr actionViewClass
 attr activeIndicatorLabelPadding
-attr activityAction
 attr activityChooserViewStyle
-attr activityName
 attr addElevationShadow
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
@@ -128,7 +126,6 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
-attr alwaysExpand
 attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
@@ -297,7 +294,6 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
-attr clearTop
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -553,8 +549,6 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
-attr finishPrimaryWithSecondary
-attr finishSecondaryWithPrimary
 attr firstBaselineToTopHeight
 attr floatingActionButtonLargePrimaryStyle
 attr floatingActionButtonLargeSecondaryStyle
@@ -971,7 +965,6 @@ attr percentX
 attr percentY
 attr perpendicularPath_percent
 attr pivotAnchor
-attr placeholderActivityName
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
@@ -986,7 +979,6 @@ attr prefixTextAppearance
 attr prefixTextColor
 attr preserveIconSpacing
 attr pressedTranslationZ
-attr primaryActivityName
 attr progressBarPadding
 attr progressBarStyle
 attr quantizeMotionInterpolator
@@ -1024,8 +1016,6 @@ attr searchHintIcon
 attr searchIcon
 attr searchPrefixText
 attr searchViewStyle
-attr secondaryActivityAction
-attr secondaryActivityName
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
@@ -1073,10 +1063,6 @@ attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
-attr splitLayoutDirection
-attr splitMinSmallestWidth
-attr splitMinWidth
-attr splitRatio
 attr splitTrack
 attr springBoundary
 attr springDamping
@@ -2116,8 +2102,6 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
-color vector_tint_color
-color vector_tint_theme_color
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -2200,6 +2184,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -3003,6 +2989,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_arrow
 drawable bg_kuning_kotak
 drawable bg_merah_kotak
 drawable bg_oren_kotak
@@ -3054,7 +3041,9 @@ drawable ic_ramcheck
 drawable ic_search_black_24
 drawable ic_slowlaptop
 drawable ic_smartphone
+drawable icon_aplikasi
 drawable indeterminate_static
+drawable logo_app
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3130,6 +3119,13 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font bold_italic
+font italic
+font josefinsans_bold
+font josefinsans_medium
+font josefinsans_regular
+font josefinsans_thin
+font medium_italic
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3207,8 +3203,6 @@ id aligned
 id all
 id allStates
 id always
-id androidx_compose_ui_view_composition_context
-id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -3231,6 +3225,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_login
+id btn_regist
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3257,11 +3253,9 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
-id compose_view_saveable_id_tag
 id compress
 id confirm_button
 id constraint
-id consume_window_insets_tag
 id container
 id content
 id contentPanel
@@ -3349,7 +3343,6 @@ id groups
 id hardisk_check
 id header_title
 id hide_ime_id
-id hide_in_inspector_tag
 id hideable
 id history
 id home
@@ -3364,16 +3357,16 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageButton5
+id imageView
 id imageView4
 id immediateStop
 id included
 id indeterminate
 id info
-id inspection_slot_table_set
 id invisible
 id inward
-id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3384,15 +3377,15 @@ id layout
 id left
 id leftToRight
 id legacy
+id lgn_email
 id line1
 id line3
 id linear
 id linearLayout3
 id listMode
 id list_item
-id locale
-id ltr
 id m3_side_sheet
+id main
 id marquee
 id masked
 id match_constraint
@@ -3502,7 +3495,6 @@ id pathRelative
 id peekHeight
 id percent
 id pin
-id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -3521,7 +3513,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id rtl
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3605,9 +3596,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView14
 id textView15
 id textView16
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3667,7 +3660,6 @@ id withinBounds
 id wrap
 id wrap_content
 id wrap_content_constrained
-id wrapped_composition_tag
 id x_left
 id x_right
 integer abc_config_activityDefaultDur
@@ -3784,7 +3776,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
+layout activity_login
 layout activity_main
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3863,6 +3858,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout splash_screen
 layout support_simple_spinner_dropdown_item
 menu bottom_nav
 mipmap ic_launcher
@@ -3896,9 +3892,12 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3916,12 +3915,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-string close_drawer
-string close_sheet
 string computer
-string default_error_message
-string default_popup_window_title
-string dropdown_menu
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3929,11 +3923,12 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
-string in_progress
-string indeterminate
+string invalid_password
+string invalid_username
 string item_view_role_description
 string komputer
 string laptop
+string login_failed
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -3950,62 +3945,6 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
-string m3c_bottom_sheet_collapse_description
-string m3c_bottom_sheet_dismiss_description
-string m3c_bottom_sheet_drag_handle_description
-string m3c_bottom_sheet_expand_description
-string m3c_bottom_sheet_pane_title
-string m3c_date_input_headline
-string m3c_date_input_headline_description
-string m3c_date_input_invalid_for_pattern
-string m3c_date_input_invalid_not_allowed
-string m3c_date_input_invalid_year_range
-string m3c_date_input_label
-string m3c_date_input_no_input_description
-string m3c_date_input_title
-string m3c_date_picker_headline
-string m3c_date_picker_headline_description
-string m3c_date_picker_navigate_to_year_description
-string m3c_date_picker_no_selection_description
-string m3c_date_picker_scroll_to_earlier_years
-string m3c_date_picker_scroll_to_later_years
-string m3c_date_picker_switch_to_calendar_mode
-string m3c_date_picker_switch_to_day_selection
-string m3c_date_picker_switch_to_input_mode
-string m3c_date_picker_switch_to_next_month
-string m3c_date_picker_switch_to_previous_month
-string m3c_date_picker_switch_to_year_selection
-string m3c_date_picker_title
-string m3c_date_picker_today_description
-string m3c_date_picker_year_picker_pane_title
-string m3c_date_range_input_invalid_range_input
-string m3c_date_range_input_title
-string m3c_date_range_picker_day_in_range
-string m3c_date_range_picker_end_headline
-string m3c_date_range_picker_scroll_to_next_month
-string m3c_date_range_picker_scroll_to_previous_month
-string m3c_date_range_picker_start_headline
-string m3c_date_range_picker_title
-string m3c_dialog
-string m3c_dropdown_menu_collapsed
-string m3c_dropdown_menu_expanded
-string m3c_search_bar_search
-string m3c_snackbar_dismiss
-string m3c_suggestions_available
-string m3c_time_picker_am
-string m3c_time_picker_hour
-string m3c_time_picker_hour_24h_suffix
-string m3c_time_picker_hour_selection
-string m3c_time_picker_hour_suffix
-string m3c_time_picker_hour_text_field
-string m3c_time_picker_minute
-string m3c_time_picker_minute_selection
-string m3c_time_picker_minute_suffix
-string m3c_time_picker_minute_text_field
-string m3c_time_picker_period_toggle_description
-string m3c_time_picker_pm
-string m3c_tooltip_long_press_label
-string m3c_tooltip_pane_description
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_24h_suffix
@@ -4090,32 +4029,25 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
-string navigation_menu
-string not_selected
-string off
-string on
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string range_end
-string range_start
+string prompt_email
+string prompt_password
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
-string selected
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string smartphone
 string status_bar_notification_info_overflow
-string switch_role
-string tab
-string template_percent
 string tips_trick
-string tooltip_description
-string tooltip_label
+string title_activity_login
+string todo
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -4407,9 +4339,6 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
-style DialogWindowTheme
-style FloatingDialogTheme
-style FloatingDialogWindowTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -5253,8 +5182,6 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
-styleable ActivityFilter activityAction activityName
-styleable ActivityRule alwaysExpand
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -5378,9 +5305,6 @@ styleable Slider android_enabled android_value android_stepSize android_valueFro
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth shapeAppearance shapeAppearanceOverlay
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
-styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
-styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
-styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable

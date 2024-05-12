@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.servicomp.app-mergeDebugResources-3:/layout/activity_login.xml",
+        "source": "com.example.servicomp.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.servicomp.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeDebugResources-3:/layout/activity_home.xml",
+        "source": "com.example.servicomp.app-main-6:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeDebugResources-3:/layout/activity_register.xml",
+        "source": "com.example.servicomp.app-main-6:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeDebugResources-3:/layout/splash_screen.xml",
+        "source": "com.example.servicomp.app-main-6:/layout/splash_screen.xml"
+    }
+]

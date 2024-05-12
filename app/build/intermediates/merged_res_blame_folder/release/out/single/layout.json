@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.servicomp.app-mergeReleaseResources-3:/layout/activity_register.xml",
+        "source": "com.example.servicomp.app-main-5:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeReleaseResources-3:/layout/activity_main.xml",
+        "source": "com.example.servicomp.app-main-5:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeReleaseResources-3:/layout/activity_home.xml",
+        "source": "com.example.servicomp.app-main-5:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.servicomp.app-mergeReleaseResources-3:/layout/splash_screen.xml",
+        "source": "com.example.servicomp.app-main-5:/layout/splash_screen.xml"
+    }
+]
