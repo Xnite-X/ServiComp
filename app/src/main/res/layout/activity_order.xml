@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="789dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="358dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/back"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <TextView
+                    android:id="@+id/brand_order_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="200dp"
+                    android:fontFamily="@font/josefinsans_regular"
+                    android:text="Brand &amp; Model"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.254"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+                <EditText
+                    android:id="@+id/editTextTextBrand"
+                    android:layout_width="277dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_edittext"
+                    android:elevation="5dp"
+                    android:ems="10"
+                    android:hint="Nama..."
+                    android:inputType="text"
+                    android:paddingStart="10sp"
+                    android:textAppearance="@style/ItalicHintText"
+                    app:layout_constraintEnd_toEndOf="@+id/brand_order_service"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/brand_order_service"
+                    app:layout_constraintTop_toBottomOf="@+id/brand_order_service" />
+
+                <TextView
+                    android:id="@+id/foto_kerusakan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/josefinsans_regular"
+                    android:text="Foto Kerusakan"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/editTextTextBrand"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/editTextTextBrand"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextBrand" />
+
+                <ImageView
+                    android:id="@+id/kotak_foto"
+                    android:layout_width="279dp"
+                    android:layout_height="193dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_oren_kotak"
+                    app:layout_constraintEnd_toEndOf="@+id/foto_kerusakan"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/foto_kerusakan"
+                    app:layout_constraintTop_toBottomOf="@+id/foto_kerusakan"
+                    tools:srcCompat="@drawable/ic_camera" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_take_picture"
+                    android:layout_width="190dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_oren_kotak"
+                    android:elevation="10dp"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="Ambil Foto"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="@+id/kotak_foto"
+                    app:layout_constraintStart_toStartOf="@+id/kotak_foto"
+                    app:layout_constraintTop_toBottomOf="@+id/kotak_foto" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="163dp"
+                    android:fontFamily="@font/josefinsans_regular"
+                    android:text="@string/deskripsikan_kerusakan"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_take_picture" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="302dp"
+                    android:layout_height="204dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_edittext"
+                    android:elevation="5dp"
+                    android:ems="10"
+                    android:hint="Cth.. Terendam air, menyala \n lalu langsung mati, dan \n tidak mau nyala lagi"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_oren_kotak"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="Kirim"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="@+id/editText"
+                    app:layout_constraintStart_toStartOf="@+id/editText"
+                    app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
