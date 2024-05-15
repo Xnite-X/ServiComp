@@ -18,4 +18,5 @@
     <string name="back" />
     <string name="email" />
     <string name="deskripsikan_kerusakan">Deskripsikan Kerusakan</string>
+    <string name="we_will_notify_you_if_price_n_estimation_is_done">We will notify you if price \n estimation is done</string>
 </resources>

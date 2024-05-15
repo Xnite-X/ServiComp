@@ -4,10 +4,12 @@ package com.example.servicomp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -21,10 +23,19 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageButton imageButton;
+  public final TextView Nama;
 
   @NonNull
-  public final TextView lgnEmail;
+  public final AppCompatButton Register;
+
+  @NonNull
+  public final EditText editTextTextAlamat;
+
+  @NonNull
+  public final EditText editTextTextNama;
+
+  @NonNull
+  public final ImageButton imageButton;
 
   @NonNull
   public final ConstraintLayout main;
@@ -35,15 +46,32 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final TextView textView2;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton,
-      @NonNull TextView lgnEmail, @NonNull ConstraintLayout main, @NonNull TextView textView,
-      @NonNull TextView textView2) {
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView textView4;
+
+  @NonNull
+  public final TextView textView5;
+
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull TextView Nama,
+      @NonNull AppCompatButton Register, @NonNull EditText editTextTextAlamat,
+      @NonNull EditText editTextTextNama, @NonNull ImageButton imageButton,
+      @NonNull ConstraintLayout main, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
+    this.Nama = Nama;
+    this.Register = Register;
+    this.editTextTextAlamat = editTextTextAlamat;
+    this.editTextTextNama = editTextTextNama;
     this.imageButton = imageButton;
-    this.lgnEmail = lgnEmail;
     this.main = main;
     this.textView = textView;
     this.textView2 = textView2;
+    this.textView3 = textView3;
+    this.textView4 = textView4;
+    this.textView5 = textView5;
   }
 
   @Override
@@ -73,15 +101,33 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
+      id = R.id.Nama;
+      TextView Nama = ViewBindings.findChildViewById(rootView, id);
+      if (Nama == null) {
         break missingId;
       }
 
-      id = R.id.lgn_email;
-      TextView lgnEmail = ViewBindings.findChildViewById(rootView, id);
-      if (lgnEmail == null) {
+      id = R.id.Register;
+      AppCompatButton Register = ViewBindings.findChildViewById(rootView, id);
+      if (Register == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextAlamat;
+      EditText editTextTextAlamat = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextAlamat == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextNama;
+      EditText editTextTextNama = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextNama == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton;
+      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton == null) {
         break missingId;
       }
 
@@ -99,8 +145,27 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, imageButton, lgnEmail, main,
-          textView, textView2);
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ConstraintLayout) rootView, Nama, Register,
+          editTextTextAlamat, editTextTextNama, imageButton, main, textView, textView2, textView3,
+          textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -51,6 +51,9 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final LinearLayout linearLayout3;
 
   @NonNull
+  public final TextView location;
+
+  @NonNull
   public final ImageView ramCheck;
 
   @NonNull
@@ -100,8 +103,8 @@ public final class ActivityHomeBinding implements ViewBinding {
       @NonNull ImageView icLaptop, @NonNull ImageView icSmartphone,
       @NonNull ImageButton imageButton5, @NonNull ImageView imageView4,
       @NonNull ImageView keyboardCheck, @NonNull LinearLayout linearLayout3,
-      @NonNull ImageView ramCheck, @NonNull ScrollView scrollView2, @NonNull TextView textView14,
-      @NonNull TextView textView15, @NonNull TextView textView16,
+      @NonNull TextView location, @NonNull ImageView ramCheck, @NonNull ScrollView scrollView2,
+      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
       @NonNull ImageView touchscreenCheck, @NonNull TextView txtCheckSeries,
       @NonNull TextView txtComputer, @NonNull TextView txtHardiskCheck,
       @NonNull TextView txtKeyboardCheck, @NonNull TextView txtLaptop,
@@ -117,6 +120,7 @@ public final class ActivityHomeBinding implements ViewBinding {
     this.imageView4 = imageView4;
     this.keyboardCheck = keyboardCheck;
     this.linearLayout3 = linearLayout3;
+    this.location = location;
     this.ramCheck = ramCheck;
     this.scrollView2 = scrollView2;
     this.textView14 = textView14;
@@ -215,6 +219,12 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.location;
+      TextView location = ViewBindings.findChildViewById(rootView, id);
+      if (location == null) {
+        break missingId;
+      }
+
       id = R.id.ram_check;
       ImageView ramCheck = ViewBindings.findChildViewById(rootView, id);
       if (ramCheck == null) {
@@ -307,7 +317,7 @@ public final class ActivityHomeBinding implements ViewBinding {
 
       return new ActivityHomeBinding((ConstraintLayout) rootView, checkSeries, checkSlowLaptop,
           hardiskCheck, icLaptop, icSmartphone, imageButton5, imageView4, keyboardCheck,
-          linearLayout3, ramCheck, scrollView2, textView14, textView15, textView16,
+          linearLayout3, location, ramCheck, scrollView2, textView14, textView15, textView16,
           touchscreenCheck, txtCheckSeries, txtComputer, txtHardiskCheck, txtKeyboardCheck,
           txtLaptop, txtRamCheck, txtSlowLaptop, txtSmartphone, txtTouchscreenCheck);
     }

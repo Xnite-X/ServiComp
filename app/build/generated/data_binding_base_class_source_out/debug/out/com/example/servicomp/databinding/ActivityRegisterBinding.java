@@ -4,20 +4,114 @@ package com.example.servicomp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.servicomp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText EditTextConfirmPassword;
+
+  @NonNull
+  public final EditText EditTextTextPassword;
+
+  @NonNull
+  public final TextView Nama;
+
+  @NonNull
+  public final TextView NoHandphone;
+
+  @NonNull
+  public final AppCompatButton Register;
+
+  @NonNull
+  public final TextView RgstConfirmPassword;
+
+  @NonNull
+  public final TextView SERVICOM;
+
+  @NonNull
+  public final EditText editTextTextAlamat;
+
+  @NonNull
+  public final EditText editTextTextEmail;
+
+  @NonNull
+  public final EditText editTextTextNama;
+
+  @NonNull
+  public final EditText editTextTextPostalAddress;
+
+  @NonNull
+  public final ImageView imageButton;
+
+  @NonNull
+  public final ConstraintLayout main;
+
+  @NonNull
+  public final TextView rgstEmail;
+
+  @NonNull
+  public final TextView rgstPassword;
+
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView textView4;
+
+  @NonNull
+  public final TextView textView5;
+
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
+      @NonNull EditText EditTextConfirmPassword, @NonNull EditText EditTextTextPassword,
+      @NonNull TextView Nama, @NonNull TextView NoHandphone, @NonNull AppCompatButton Register,
+      @NonNull TextView RgstConfirmPassword, @NonNull TextView SERVICOM,
+      @NonNull EditText editTextTextAlamat, @NonNull EditText editTextTextEmail,
+      @NonNull EditText editTextTextNama, @NonNull EditText editTextTextPostalAddress,
+      @NonNull ImageView imageButton, @NonNull ConstraintLayout main, @NonNull TextView rgstEmail,
+      @NonNull TextView rgstPassword, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
+    this.EditTextConfirmPassword = EditTextConfirmPassword;
+    this.EditTextTextPassword = EditTextTextPassword;
+    this.Nama = Nama;
+    this.NoHandphone = NoHandphone;
+    this.Register = Register;
+    this.RgstConfirmPassword = RgstConfirmPassword;
+    this.SERVICOM = SERVICOM;
+    this.editTextTextAlamat = editTextTextAlamat;
+    this.editTextTextEmail = editTextTextEmail;
+    this.editTextTextNama = editTextTextNama;
+    this.editTextTextPostalAddress = editTextTextPostalAddress;
+    this.imageButton = imageButton;
+    this.main = main;
+    this.rgstEmail = rgstEmail;
+    this.rgstPassword = rgstPassword;
+    this.textView = textView;
+    this.textView2 = textView2;
+    this.textView3 = textView3;
+    this.textView4 = textView4;
+    this.textView5 = textView5;
   }
 
   @Override
@@ -43,10 +137,133 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
   @NonNull
   public static ActivityRegisterBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.EditTextConfirmPassword;
+      EditText EditTextConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (EditTextConfirmPassword == null) {
+        break missingId;
+      }
 
-    return new ActivityRegisterBinding((ConstraintLayout) rootView);
+      id = R.id.EditTextTextPassword;
+      EditText EditTextTextPassword = ViewBindings.findChildViewById(rootView, id);
+      if (EditTextTextPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.Nama;
+      TextView Nama = ViewBindings.findChildViewById(rootView, id);
+      if (Nama == null) {
+        break missingId;
+      }
+
+      id = R.id.No_handphone;
+      TextView NoHandphone = ViewBindings.findChildViewById(rootView, id);
+      if (NoHandphone == null) {
+        break missingId;
+      }
+
+      id = R.id.Register;
+      AppCompatButton Register = ViewBindings.findChildViewById(rootView, id);
+      if (Register == null) {
+        break missingId;
+      }
+
+      id = R.id.Rgst_Confirm_Password;
+      TextView RgstConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (RgstConfirmPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.SERVICOM;
+      TextView SERVICOM = ViewBindings.findChildViewById(rootView, id);
+      if (SERVICOM == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextAlamat;
+      EditText editTextTextAlamat = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextAlamat == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextEmail;
+      EditText editTextTextEmail = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextNama;
+      EditText editTextTextNama = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextNama == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextTextPostalAddress;
+      EditText editTextTextPostalAddress = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPostalAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.imageButton;
+      ImageView imageButton = ViewBindings.findChildViewById(rootView, id);
+      if (imageButton == null) {
+        break missingId;
+      }
+
+      ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.rgst_email;
+      TextView rgstEmail = ViewBindings.findChildViewById(rootView, id);
+      if (rgstEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.rgst_password;
+      TextView rgstPassword = ViewBindings.findChildViewById(rootView, id);
+      if (rgstPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, EditTextConfirmPassword,
+          EditTextTextPassword, Nama, NoHandphone, Register, RgstConfirmPassword, SERVICOM,
+          editTextTextAlamat, editTextTextEmail, editTextTextNama, editTextTextPostalAddress,
+          imageButton, main, rgstEmail, rgstPassword, textView, textView2, textView3, textView4,
+          textView5);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

@@ -8,6 +8,10 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <permission
         android:name="com.example.servicomp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -25,14 +29,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.ServiComp" >
+        <activity
+            android:name="com.example.servicomp.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.servicomp.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.servicomp.OrderActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.servicomp.LoginActivity"
             android:exported="false" />
-        <activity
-            android:name="com.example.servicomp.ui.login.LoginActivity"
-            android:exported="false"
-            android:label="@string/title_activity_login" />
         <activity
             android:name="com.example.servicomp.MainActivity"
             android:exported="true" >
@@ -42,6 +52,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
