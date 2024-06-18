@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,12 +23,12 @@
             tools:layout_editor_absoluteY="-16dp">
 
             <ImageView
-                android:id="@+id/imageButton"
+                android:id="@+id/backButtonRegist"
                 android:layout_width="15dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
-                android:background="@android:color/transparent"
+                android:background="@color/white"
                 android:contentDescription="@string/back"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -38,13 +38,13 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="50dp"
                 android:text="Lets join with the other"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintHorizontal_bias="0.197"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/SERVICOM"
@@ -146,7 +146,7 @@
 
 
             <EditText
-                android:id="@+id/editTextTextAlamat"
+                android:id="@+id/editTextTextNoHP"
                 android:layout_width="268dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="12dp"
@@ -170,10 +170,10 @@
                 android:text="Email"
                 android:textSize="15dp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/editTextTextAlamat"
+                app:layout_constraintEnd_toEndOf="@+id/editTextTextNoHP"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/editTextTextAlamat"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextAlamat" />
+                app:layout_constraintStart_toStartOf="@+id/editTextTextNoHP"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextNoHP" />
 
             <EditText
                 android:id="@+id/editTextTextEmail"
@@ -193,7 +193,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/rgst_email" />
 
             <TextView
-                android:id="@+id/rgst_password"
+                android:id="@+id/txtrgst_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -206,7 +206,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmail" />
 
             <EditText
-                android:id="@+id/EditTextTextPassword"
+                android:id="@+id/rgst_password"
                 android:layout_width="268dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="12dp"
@@ -214,13 +214,13 @@
                 android:elevation="5dp"
                 android:ems="10"
                 android:hint="Password..."
-                android:inputType="textPassword|textMultiLine"
+                android:inputType="textPassword"
                 android:paddingStart="10sp"
                 android:textAppearance="@style/ItalicHintText"
-                app:layout_constraintEnd_toEndOf="@+id/rgst_password"
+                app:layout_constraintEnd_toEndOf="@+id/txtrgst_password"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/rgst_password"
-                app:layout_constraintTop_toBottomOf="@+id/rgst_password" />
+                app:layout_constraintStart_toStartOf="@+id/txtrgst_password"
+                app:layout_constraintTop_toBottomOf="@+id/txtrgst_password" />
 
             <TextView
                 android:id="@+id/Rgst_Confirm_Password"
@@ -230,10 +230,10 @@
                 android:text="Confirm Password"
                 android:textSize="15dp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/EditTextTextPassword"
+                app:layout_constraintEnd_toEndOf="@+id/rgst_password"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/EditTextTextPassword"
-                app:layout_constraintTop_toBottomOf="@+id/EditTextTextPassword" />
+                app:layout_constraintStart_toStartOf="@+id/rgst_password"
+                app:layout_constraintTop_toBottomOf="@+id/rgst_password" />
 
             <EditText
                 android:id="@+id/EditTextConfirmPassword"

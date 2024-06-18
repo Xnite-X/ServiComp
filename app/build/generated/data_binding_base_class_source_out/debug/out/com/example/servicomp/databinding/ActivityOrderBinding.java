@@ -4,9 +4,11 @@ package com.example.servicomp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,6 +26,9 @@ public final class ActivityOrderBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton backArrowOrder;
+
+  @NonNull
   public final TextView brandOrderService;
 
   @NonNull
@@ -31,6 +36,12 @@ public final class ActivityOrderBinding implements ViewBinding {
 
   @NonNull
   public final AppCompatButton button2;
+
+  @NonNull
+  public final Button closeFullImageButton;
+
+  @NonNull
+  public final LinearLayout containerFoto;
 
   @NonNull
   public final EditText editText;
@@ -42,10 +53,16 @@ public final class ActivityOrderBinding implements ViewBinding {
   public final TextView fotoKerusakan;
 
   @NonNull
-  public final ImageButton imageButton2;
+  public final ImageView fullImageView;
 
   @NonNull
-  public final ImageView kotakFoto;
+  public final ImageView kotakFoto1;
+
+  @NonNull
+  public final ImageView kotakFoto2;
+
+  @NonNull
+  public final ImageView kotakFoto3;
 
   @NonNull
   public final ConstraintLayout main;
@@ -54,20 +71,27 @@ public final class ActivityOrderBinding implements ViewBinding {
   public final TextView textView6;
 
   private ActivityOrderBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView brandOrderService, @NonNull AppCompatButton btnTakePicture,
-      @NonNull AppCompatButton button2, @NonNull EditText editText,
-      @NonNull EditText editTextTextBrand, @NonNull TextView fotoKerusakan,
-      @NonNull ImageButton imageButton2, @NonNull ImageView kotakFoto,
+      @NonNull ImageButton backArrowOrder, @NonNull TextView brandOrderService,
+      @NonNull AppCompatButton btnTakePicture, @NonNull AppCompatButton button2,
+      @NonNull Button closeFullImageButton, @NonNull LinearLayout containerFoto,
+      @NonNull EditText editText, @NonNull EditText editTextTextBrand,
+      @NonNull TextView fotoKerusakan, @NonNull ImageView fullImageView,
+      @NonNull ImageView kotakFoto1, @NonNull ImageView kotakFoto2, @NonNull ImageView kotakFoto3,
       @NonNull ConstraintLayout main, @NonNull TextView textView6) {
     this.rootView = rootView;
+    this.backArrowOrder = backArrowOrder;
     this.brandOrderService = brandOrderService;
     this.btnTakePicture = btnTakePicture;
     this.button2 = button2;
+    this.closeFullImageButton = closeFullImageButton;
+    this.containerFoto = containerFoto;
     this.editText = editText;
     this.editTextTextBrand = editTextTextBrand;
     this.fotoKerusakan = fotoKerusakan;
-    this.imageButton2 = imageButton2;
-    this.kotakFoto = kotakFoto;
+    this.fullImageView = fullImageView;
+    this.kotakFoto1 = kotakFoto1;
+    this.kotakFoto2 = kotakFoto2;
+    this.kotakFoto3 = kotakFoto3;
     this.main = main;
     this.textView6 = textView6;
   }
@@ -99,6 +123,12 @@ public final class ActivityOrderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.back_arrow_order;
+      ImageButton backArrowOrder = ViewBindings.findChildViewById(rootView, id);
+      if (backArrowOrder == null) {
+        break missingId;
+      }
+
       id = R.id.brand_order_service;
       TextView brandOrderService = ViewBindings.findChildViewById(rootView, id);
       if (brandOrderService == null) {
@@ -114,6 +144,18 @@ public final class ActivityOrderBinding implements ViewBinding {
       id = R.id.button2;
       AppCompatButton button2 = ViewBindings.findChildViewById(rootView, id);
       if (button2 == null) {
+        break missingId;
+      }
+
+      id = R.id.close_full_image_button;
+      Button closeFullImageButton = ViewBindings.findChildViewById(rootView, id);
+      if (closeFullImageButton == null) {
+        break missingId;
+      }
+
+      id = R.id.container_foto;
+      LinearLayout containerFoto = ViewBindings.findChildViewById(rootView, id);
+      if (containerFoto == null) {
         break missingId;
       }
 
@@ -135,15 +177,27 @@ public final class ActivityOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageButton2;
-      ImageButton imageButton2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton2 == null) {
+      id = R.id.full_image_view;
+      ImageView fullImageView = ViewBindings.findChildViewById(rootView, id);
+      if (fullImageView == null) {
         break missingId;
       }
 
-      id = R.id.kotak_foto;
-      ImageView kotakFoto = ViewBindings.findChildViewById(rootView, id);
-      if (kotakFoto == null) {
+      id = R.id.kotak_foto1;
+      ImageView kotakFoto1 = ViewBindings.findChildViewById(rootView, id);
+      if (kotakFoto1 == null) {
+        break missingId;
+      }
+
+      id = R.id.kotak_foto2;
+      ImageView kotakFoto2 = ViewBindings.findChildViewById(rootView, id);
+      if (kotakFoto2 == null) {
+        break missingId;
+      }
+
+      id = R.id.kotak_foto3;
+      ImageView kotakFoto3 = ViewBindings.findChildViewById(rootView, id);
+      if (kotakFoto3 == null) {
         break missingId;
       }
 
@@ -155,9 +209,10 @@ public final class ActivityOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityOrderBinding((ConstraintLayout) rootView, brandOrderService,
-          btnTakePicture, button2, editText, editTextTextBrand, fotoKerusakan, imageButton2,
-          kotakFoto, main, textView6);
+      return new ActivityOrderBinding((ConstraintLayout) rootView, backArrowOrder,
+          brandOrderService, btnTakePicture, button2, closeFullImageButton, containerFoto, editText,
+          editTextTextBrand, fotoKerusakan, fullImageView, kotakFoto1, kotakFoto2, kotakFoto3, main,
+          textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

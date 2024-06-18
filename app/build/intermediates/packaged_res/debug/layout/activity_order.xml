@@ -25,7 +25,7 @@
                 android:layout_height="789dp">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/back_arrow_order"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
@@ -52,7 +52,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.254"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+                    app:layout_constraintTop_toBottomOf="@+id/back_arrow_order" />
 
                 <EditText
                     android:id="@+id/editTextTextBrand"
@@ -85,18 +85,49 @@
                     app:layout_constraintStart_toStartOf="@+id/editTextTextBrand"
                     app:layout_constraintTop_toBottomOf="@+id/editTextTextBrand" />
 
-                <ImageView
-                    android:id="@+id/kotak_foto"
-                    android:layout_width="279dp"
-                    android:layout_height="193dp"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginTop="16dp"
-                    android:background="@drawable/bg_oren_kotak"
+
+                <LinearLayout
+                    android:id="@+id/container_foto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
                     app:layout_constraintEnd_toEndOf="@+id/foto_kerusakan"
-                    app:layout_constraintHorizontal_bias="0.121"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/foto_kerusakan"
-                    app:layout_constraintTop_toBottomOf="@+id/foto_kerusakan"
-                    tools:srcCompat="@drawable/ic_camera" />
+                    app:layout_constraintTop_toBottomOf="@+id/foto_kerusakan">
+
+                    <ImageView
+                        android:id="@+id/kotak_foto1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_oren_kotak"
+                        tools:srcCompat="@drawable/ic_camera" />
+
+                    <ImageView
+                        android:id="@+id/kotak_foto2"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_oren_kotak"
+                        tools:srcCompat="@drawable/ic_camera" />
+
+                    <ImageView
+                        android:id="@+id/kotak_foto3"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/bg_oren_kotak"
+                        tools:srcCompat="@drawable/ic_camera" />
+
+
+                </LinearLayout>
+
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_take_picture"
@@ -108,10 +139,10 @@
                     android:fontFamily="@font/josefinsans_bold"
                     android:text="Ambil Foto"
                     android:textColor="@color/white"
-                    app:layout_constraintEnd_toEndOf="@+id/kotak_foto"
-                    app:layout_constraintHorizontal_bias="0.573"
-                    app:layout_constraintStart_toStartOf="@+id/kotak_foto"
-                    app:layout_constraintTop_toBottomOf="@+id/kotak_foto" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.423"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/container_foto" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -140,6 +171,7 @@
                     android:hint="Cth.. Terendam air, menyala \n lalu langsung mati, dan \n tidak mau nyala lagi"
                     android:inputType="textMultiLine"
                     android:paddingStart="10sp"
+                    android:gravity="top|start"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.384"
                     app:layout_constraintStart_toStartOf="parent"
@@ -163,5 +195,28 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/full_image_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/close_full_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:text="Close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

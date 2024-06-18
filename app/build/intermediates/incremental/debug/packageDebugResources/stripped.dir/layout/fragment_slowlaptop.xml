@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 Langkah Mudah Mengetahui Penyebab Laptop Anda Lambat"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Langkah 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Cek kondisi keyboard pastikan tidak ada tombol yang menekan sendiri karena beberapa kasus (walapun sangat jarang) laptop lambat/lemot/error karena salah satu tombol keyboard menekan sendiri akibat umur/faktor lengket. "
+            android:paddingTop="4dp" />
+
+        <!-- Langkah 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Cek kondisi harddisk pastikan tidak merah penuh. Salah satu penyebab laptop lambat karena harddisk mulai penuh (merah) atau harddisk mengalami bad sector. Bad sector pada harddisk biasanya disebabkan karena laptop sering dimatikan tiba-tiba tanpa shutdown atau laptop sering dibawa-bawa dalam kondisi belum mati (sleep/hibernate)."
+            android:paddingTop="4dp" />
+
+        <!-- Langkah 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Cek konsumsi penggunaan RAM dan processor Anda dengan klik Ctrl+Alt+Del. Anda dapat memantau software apa yang memakan RAM dan processor paling besar dan Anda dapat menutupnya jika tidak sedang digunakan. Jika Anda memang membutuhkan software-software yang menghabiskan RAM disarankan menambah RAM, namun perhatikan juga kemampuan processor karena prosesor pada laptop kebanyakan tidak bisa diupgrade seperti layaknya RAM."
+            android:paddingTop="4dp" />
+
+        <!-- Langkah 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Cek temperatur/suhu laptop Anda, karena salah satu penyebab laptop lambat adalah temperatur processor dan VGA laptop Anda terlalu panas. Biasanya setelah 1-2 tahun penggunaan, laptop akan lebih cepat panas karena saluran udara pendinginnya tersumbat debu dan pasta pendingin di processor dan VGA sudah mengering sehingga tidak mampu mendinginkan laptop dengan baik. Jika sudah begini, disarankan segera lakukan perawatan laptop yaitu cleaning + ganti pasta pendingin, PENTING! Laptop yang terlambat dirawat (cleaning + ganti pasta) bisa mengalami overheat (panas berlebih) bahkan bisa mengalami mati total karena chip VGA jebol kepanasan."
+            android:paddingTop="4dp" />
+
+        <!-- Langkah 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Jika semua langkah di atas sudah Anda periksa dan hasilnya masih normal, lakukan Instal Ulang, karena salah satu penyebab laptop lambat adalah terlalu banyak cache dan registry yang tidak bisa dihapus manual. Pastikan data penting sudah Anda amankan atau pindahkan ke folder sel lain sebelum di Copy."
+            android:paddingTop="4dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         // Set OnClickListener for the login button
         binding.btnLogin.setOnClickListener {
             // Start the login activity
-            startActivity(Intent(this, HomeActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         // Set OnClickListener for the register button
@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
             // Start the register activity
             startActivity(Intent(this, RegisterActivity::class.java))
         }
-
-
 
     }
 }

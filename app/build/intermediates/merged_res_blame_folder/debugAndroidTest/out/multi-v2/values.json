@@ -4,7 +4,7 @@
             "outputFile": "com.example.servicomp.test.app-mergeDebugAndroidTestResources-1:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\exoni\\.gradle\\caches\\transforms-3\\c4d5fa657c0ffb5027fa6afc4d009832\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\exoni\\.gradle\\caches\\transforms-3\\438927074132a8cf369d159800a19e93\\transformed\\core-1.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permasalahan pada keyboard Laptop"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beberapa permasalahan keyboard yang sering terjadi antara lain keyboard Laptop tidak berfungsi/tidak bisa mengetik ataupun keyboard tiba-tiba menekan sendiri. "
+            android:paddingBottom="16dp" />
+
+        <!-- Subsection Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kenapa keyboard Laptop tidak berfungsi/tidak bisa mengetik ?"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setelah lama digunakan, beberapa tombol keyboard tidak berfungsi/tidak bisa mengetik bisa disebabkan oleh beberapa hal :"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Masalah setting/pengaturan keyboard yang salah. Solusinya Anda dapat memeriksa kembali pengaturan keyboard di Windows atau MacOS Anda, kembalikan ke mode pengaturan awal (restore default) atau bisa juga coba update driver keyboard Anda ke versi terbaru."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Debu dan kotoran lain yang menempel di bawah tombol keyboard. Debu dan kotoran tersebut dapat mengganggu kontak antara tombol keyboard dengan papan sirkuit di bawahnya. Solusinya Anda perlu membersihkan pelan-pelan dan hati-hati agar tidak merusak keyboard atau komponen di bawahnya. Pastikan saat menggunakan keyboard, tangan dalam kondisi bersih dan kering agar keyboard tetap dalam kondisi bersih."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Laptop sering dibawa atau disimpan di tempat yang sempit atau ditekan dengan barang lain bisa juga menjadi penyebab tombol keyboard tidak berfungsi karena mendapat tekanan terlalu keras. Jika tombol sudah rusak biasanya harus ganti keyboard satu set, tidak bisa diperbaiki sebagian. Pastikan Anda membawa Laptop di tempat yang aman dan longgar selain mengamankan keyboard juga mengamankan layar LCD-nya."
+            android:paddingBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

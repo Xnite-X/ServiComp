@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Cek Konsumsi RAM di HP -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Konsumsi RAM di HP"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Download aplikasi CPU-Z di playstore. "
+            android:autoLink="web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Buka aplikasi CPU-Z yang telah diinstal lalu buka tab Device."
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Lihat bagian Available RAM (storage tersisa) apabila kurang dari 20% maka HP Anda dalam kondisi bahaya."
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Untuk mengurangi konsumsi RAM, Anda dapat menonaktifkan penggunaan aplikasi di Pengaturan (Setting) pada HP Anda atau Anda dapat menggunakan aplikasi CC Cleaner, "
+            android:autoLink="web"
+            android:paddingTop="4dp" />
+
+        <!-- Cek Konsumsi RAM di Laptop / Komputer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Konsumsi RAM di Laptop / Komputer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Tekan Ctrl + Alt + Delete lalu buka Task Manager"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Pada bagian RAM (Memory) perhatikan berapa persen terpakai. Agar laptop / komputer Anda tidak lambat, pastikan RAM terpakai sesedikit mungkin, kurang dari 60%."
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Klik pada bagian memory untuk mengurutkan aplikasi/software mana saja yang mengonsumsi RAM paling banyak. Anda dapat menonaktifkan Aplikasi/software tersebut agar laptop/komputer Anda tidak lambat lagi."
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Anda bisa menambahkan RAM pada laptop / komputer Anda jika ternyata aplikasi/software yang Anda butuhkan untuk bekerja cukup banyak. Jika langkah-langkah di atas tetap tidak membuat laptop/komputer Anda cepat, Anda dapat melakukan pengecekan harddisk, "
+            android:autoLink="web"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Jika ternyata harddisk Anda masih normal, maka Anda perlu melakukan install ulang untuk menghapus banyak cache yang tidak terlihat."
+            android:autoLink="web"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

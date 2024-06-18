@@ -1,4 +1,5 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/home"
@@ -6,14 +7,9 @@
         android:icon="@drawable/ic_home" />
 
     <item
-        android:id="@+id/activity"
-        android:title="Activity"
+        android:id="@+id/active"
+        android:title="Active Order"
         android:icon="@drawable/ic_activeorder" />
-
-    <item
-        android:id="@+id/chat"
-        android:title="Activity"
-        android:icon="@drawable/ic_chat" />
 
     <item
         android:id="@+id/history"

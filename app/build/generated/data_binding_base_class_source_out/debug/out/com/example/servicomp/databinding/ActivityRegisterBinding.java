@@ -26,9 +26,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText EditTextConfirmPassword;
 
   @NonNull
-  public final EditText EditTextTextPassword;
-
-  @NonNull
   public final TextView Nama;
 
   @NonNull
@@ -44,7 +41,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView SERVICOM;
 
   @NonNull
-  public final EditText editTextTextAlamat;
+  public final ImageView backButtonRegist;
 
   @NonNull
   public final EditText editTextTextEmail;
@@ -53,10 +50,10 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final EditText editTextTextNama;
 
   @NonNull
-  public final EditText editTextTextPostalAddress;
+  public final EditText editTextTextNoHP;
 
   @NonNull
-  public final ImageView imageButton;
+  public final EditText editTextTextPostalAddress;
 
   @NonNull
   public final ConstraintLayout main;
@@ -65,7 +62,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView rgstEmail;
 
   @NonNull
-  public final TextView rgstPassword;
+  public final EditText rgstPassword;
 
   @NonNull
   public final TextView textView;
@@ -82,28 +79,31 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final TextView textView5;
 
+  @NonNull
+  public final TextView txtrgstPassword;
+
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull EditText EditTextConfirmPassword, @NonNull EditText EditTextTextPassword,
-      @NonNull TextView Nama, @NonNull TextView NoHandphone, @NonNull AppCompatButton Register,
+      @NonNull EditText EditTextConfirmPassword, @NonNull TextView Nama,
+      @NonNull TextView NoHandphone, @NonNull AppCompatButton Register,
       @NonNull TextView RgstConfirmPassword, @NonNull TextView SERVICOM,
-      @NonNull EditText editTextTextAlamat, @NonNull EditText editTextTextEmail,
-      @NonNull EditText editTextTextNama, @NonNull EditText editTextTextPostalAddress,
-      @NonNull ImageView imageButton, @NonNull ConstraintLayout main, @NonNull TextView rgstEmail,
-      @NonNull TextView rgstPassword, @NonNull TextView textView, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull ImageView backButtonRegist, @NonNull EditText editTextTextEmail,
+      @NonNull EditText editTextTextNama, @NonNull EditText editTextTextNoHP,
+      @NonNull EditText editTextTextPostalAddress, @NonNull ConstraintLayout main,
+      @NonNull TextView rgstEmail, @NonNull EditText rgstPassword, @NonNull TextView textView,
+      @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
+      @NonNull TextView textView5, @NonNull TextView txtrgstPassword) {
     this.rootView = rootView;
     this.EditTextConfirmPassword = EditTextConfirmPassword;
-    this.EditTextTextPassword = EditTextTextPassword;
     this.Nama = Nama;
     this.NoHandphone = NoHandphone;
     this.Register = Register;
     this.RgstConfirmPassword = RgstConfirmPassword;
     this.SERVICOM = SERVICOM;
-    this.editTextTextAlamat = editTextTextAlamat;
+    this.backButtonRegist = backButtonRegist;
     this.editTextTextEmail = editTextTextEmail;
     this.editTextTextNama = editTextTextNama;
+    this.editTextTextNoHP = editTextTextNoHP;
     this.editTextTextPostalAddress = editTextTextPostalAddress;
-    this.imageButton = imageButton;
     this.main = main;
     this.rgstEmail = rgstEmail;
     this.rgstPassword = rgstPassword;
@@ -112,6 +112,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView5 = textView5;
+    this.txtrgstPassword = txtrgstPassword;
   }
 
   @Override
@@ -147,12 +148,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.EditTextTextPassword;
-      EditText EditTextTextPassword = ViewBindings.findChildViewById(rootView, id);
-      if (EditTextTextPassword == null) {
-        break missingId;
-      }
-
       id = R.id.Nama;
       TextView Nama = ViewBindings.findChildViewById(rootView, id);
       if (Nama == null) {
@@ -183,9 +178,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextAlamat;
-      EditText editTextTextAlamat = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextAlamat == null) {
+      id = R.id.backButtonRegist;
+      ImageView backButtonRegist = ViewBindings.findChildViewById(rootView, id);
+      if (backButtonRegist == null) {
         break missingId;
       }
 
@@ -201,15 +196,15 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextPostalAddress;
-      EditText editTextTextPostalAddress = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPostalAddress == null) {
+      id = R.id.editTextTextNoHP;
+      EditText editTextTextNoHP = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextNoHP == null) {
         break missingId;
       }
 
-      id = R.id.imageButton;
-      ImageView imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
+      id = R.id.editTextTextPostalAddress;
+      EditText editTextTextPostalAddress = ViewBindings.findChildViewById(rootView, id);
+      if (editTextTextPostalAddress == null) {
         break missingId;
       }
 
@@ -222,7 +217,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       id = R.id.rgst_password;
-      TextView rgstPassword = ViewBindings.findChildViewById(rootView, id);
+      EditText rgstPassword = ViewBindings.findChildViewById(rootView, id);
       if (rgstPassword == null) {
         break missingId;
       }
@@ -257,11 +252,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, EditTextConfirmPassword,
-          EditTextTextPassword, Nama, NoHandphone, Register, RgstConfirmPassword, SERVICOM,
-          editTextTextAlamat, editTextTextEmail, editTextTextNama, editTextTextPostalAddress,
-          imageButton, main, rgstEmail, rgstPassword, textView, textView2, textView3, textView4,
-          textView5);
+      id = R.id.txtrgst_password;
+      TextView txtrgstPassword = ViewBindings.findChildViewById(rootView, id);
+      if (txtrgstPassword == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, EditTextConfirmPassword, Nama,
+          NoHandphone, Register, RgstConfirmPassword, SERVICOM, backButtonRegist, editTextTextEmail,
+          editTextTextNama, editTextTextNoHP, editTextTextPostalAddress, main, rgstEmail,
+          rgstPassword, textView, textView2, textView3, textView4, textView5, txtrgstPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

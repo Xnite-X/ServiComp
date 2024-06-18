@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_touchcheck_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/touchInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika ada pixel yang mati maka tidak akan menampilkan warna, tekan tombol dibawah untuk memulai check lcd"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnStartTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Pixel Test"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

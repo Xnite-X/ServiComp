@@ -2,5 +2,5 @@ com.example.servicomp.test.app-androidTest-0 C:\Kuliah\ServiComp\app\build\gener
 com.example.servicomp.test.app-mergeDebugAndroidTestResources-1 C:\Kuliah\ServiComp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.servicomp.test.app-mergeDebugAndroidTestResources-2 C:\Kuliah\ServiComp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
 com.example.servicomp.test.app-merged_res-3 C:\Kuliah\ServiComp\app\build\intermediates\merged_res\debugAndroidTest
-com.example.servicomp.test.app-core-1.5.0-4 C:\Users\exoni\.gradle\caches\transforms-3\c4d5fa657c0ffb5027fa6afc4d009832\transformed\core-1.5.0\res
-com.example.servicomp.test.app-annotation-experimental-1.4.0-5 C:\Users\exoni\.gradle\caches\transforms-3\df22792adbffd7bf6ffd9dbaba2f1f1d\transformed\annotation-experimental-1.4.0\res
+com.example.servicomp.test.app-annotation-experimental-1.4.0-4 C:\Users\exoni\.gradle\caches\transforms-3\4173f1c775bb55a2a83254e88795acd1\transformed\annotation-experimental-1.4.0\res
+com.example.servicomp.test.app-core-1.5.0-5 C:\Users\exoni\.gradle\caches\transforms-3\438927074132a8cf369d159800a19e93\transformed\core-1.5.0\res

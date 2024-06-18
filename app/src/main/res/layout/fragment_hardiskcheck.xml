@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Windows Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Mudah Cek Kondisi Kesehatan Harddisk Laptop OS Windows"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penting! Jika harddisk mulai terasa lambat/lemot, sebelum terlambat harddisk error lalu Anda kehilangan data penting"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Buka My Computer periksa partisi C, D, dan lainnya apakah masih biru atau sudah merah penuh? Jika penuh, segera hapus data tidak penting agar laptop tidak lambat"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Jangan pernah menyimpan data penting di partisi C karena partisi C rentan mengalami bad sector."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Download dan install software HD Sentinel di sini."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Buka software HD Sentinel di desktop"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Perhatikan bagian health (kesehatan), jika kurang dari 100% perhatikan informasi di sisi kanan, kemungkinan harddisk mulai bermasalah, segera amankan data penting selagi harddisk masih bisa diakses."
+            android:paddingBottom="16dp" />
+
+        <!-- Linux Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Mudah Cek Kondisi Kesehatan Harddisk Laptop OS Linux"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penting! Jika harddisk mulai terasa lambat/lemot, sebelum terlambat harddisk error lalu Anda kehilangan data penting"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Download dan install software HD Sentinel di sini."
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Buka software HD Sentinel"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Perhatikan bagian health (kesehatan), jika kurang dari 100% perhatikan informasi di sisi kanan, kemungkinan harddisk mulai bermasalah, segera amankan data penting selagi harddisk masih bisa diakses."
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

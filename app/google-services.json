@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666562146272",
+    "project_id": "servicomp-44f11",
+    "storage_bucket": "servicomp-44f11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666562146272:android:302f15f20ff3760dc48585",
+        "android_client_info": {
+          "package_name": "com.example.servicomp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANUbR5crqRz-iFirim0PJDS12rsqypWWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
