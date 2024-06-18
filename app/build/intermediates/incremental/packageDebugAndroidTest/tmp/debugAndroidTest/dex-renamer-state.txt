@@ -1,4 +1,4 @@
-#Sun May 12 09:39:50 WIB 2024
+#Tue Jun 18 21:20:55 WIB 2024
 base.0=C\:\\Kuliah\\ServiComp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Kuliah\\ServiComp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Kuliah\\ServiComp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\11\\classes.dex
